@@ -1,1 +1,1 @@
-File 2-print.py write a Python script that prints exactly Programming is like building a multilingual puzzle, followed by a new line
+File 3-print_number.py Complete this source code in order to print the integer stored in the variable number, followed by Battery street, followed by a new line
