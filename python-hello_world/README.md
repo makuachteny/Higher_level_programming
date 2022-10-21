@@ -1,1 +1,1 @@
-File 8-lowncat_edges Complete this source code to print object-oriented programming with Python, followed by a new line
+File 9-easter_egg.py Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line
