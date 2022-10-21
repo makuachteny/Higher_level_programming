@@ -1,1 +1,1 @@
-File 7-edges.py completes a source code word_first_3 should contain the first 3 letters of the variable word, word_last_2 should contain the last 2 letters of the variable word, middle_word should contain the value of the variable word without the first and last letters
+File 8-lowncat_edges Complete this source code to print object-oriented programming with Python, followed by a new line
