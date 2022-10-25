@@ -1,1 +1,1 @@
-File 8-concat_edges.py Complete this source code to print object-oriented programming with Python, followed by a new line
+File 100-write.py wWrite a Python script that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line
