@@ -1,1 +1,1 @@
-File  5-print_comb2.py write a program that prints numbers from 0 to 99
+File  6-print_comb3.py write a program that prints all possible different combinations of two digits
