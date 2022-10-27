@@ -1,1 +1,1 @@
-File 4-print_hexa.py write a program that prints all numbers from 0 to 98 in decimal and in hexadecimal (as in the following example)
+File  5-print_comb2.py write a program that prints numbers from 0 to 99
