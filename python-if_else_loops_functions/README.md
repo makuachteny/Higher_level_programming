@@ -1,1 +1,1 @@
-File 102-magic_calculation.py write the Python function def magic_calculation(a, b, c): that does exactly the same as the following Python bytecode
+task 1-last_digit.py program will assign a random signed number to the variable number each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable number
