@@ -1,1 +1,1 @@
-File  7-islower.py write a function that checks for lowercase character
+File  8-uppercase.py write a function that prints a string in uppercase followed by a new line
