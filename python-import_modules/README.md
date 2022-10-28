@@ -1,1 +1,1 @@
-File 2-args.py write a program that prints the number of and the list of its arguments
+File 3-infinite_add.py write a program that prints the result of the addition of all arguments
