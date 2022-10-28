@@ -1,1 +1,1 @@
-File 10-add.py write a function that adds two integers and returns the result
+File 11-pow.py write a function that prints the numbers from 1 to 100 separated by a space
