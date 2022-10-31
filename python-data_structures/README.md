@@ -1,1 +1,1 @@
-File 2-replace_in_list.py writes a function that replaces an element of a list at a specific position (like in C)
+File 3-print_reversed_list_integer.py writes a  function that prints all integers of a list, in reverse order
