@@ -1,1 +1,1 @@
-File 4-only_diff_elements.py writes a function that returns a set of all elements present in only one set
+File 5-number_keys.py writes a function that returns the number of keys in a dictionary
