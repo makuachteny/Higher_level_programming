@@ -1,1 +1,1 @@
-File 8-simple_delete.py writes a function that deletes a key in a dictionary
+File 9-multiply_by_2.py writes a function that returns a new dictionary with all values multiplied by 2
