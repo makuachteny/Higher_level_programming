@@ -1,1 +1,1 @@
-File 9-multiply_by_2.py writes a function that returns a new dictionary with all values multiplied by 2
+File 10-best_score.py writes a function that returns a key with the biggest integer value
