@@ -1,1 +1,1 @@
-File 7-update_dictionary.py writes a function that replaces or adds key/value in a dictionary
+File 8-simple_delete.py writes a function that deletes a key in a dictionary
