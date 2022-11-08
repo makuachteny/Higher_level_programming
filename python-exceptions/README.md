@@ -1,1 +1,1 @@
-File 1-safe_print_integer.py writes a  function that prints an integer with {:d}.format()
+File 2-safe_print_list_integers.py writes a function that prints the first x elements of a list and only integers
