@@ -49,7 +49,7 @@ class Square:
                 print()
         else:
             print()
-    
+
     @property
     def position(self):
         """Gets the position of the square"""
