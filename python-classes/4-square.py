@@ -19,12 +19,13 @@ class Square:
         Returns:
         int: The return value. Returns the area
         """
-      return self.__size * self.__size
-   
+        return self.__size * self.__size
+
     @property
     def size(self):
         """Gets the size of the class instance"""
         return self.__size
+
     @size.setter
     def size(self, value):
         """Sets the size of the class instance"""
