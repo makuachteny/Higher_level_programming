@@ -1,1 +1,1 @@
-File 3-safe_print_division.py writes a function that divides 2 integers and print the results
+File 4-list_division.py writes a  function that divides element by element 2 lists
