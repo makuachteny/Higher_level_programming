@@ -1,1 +1,1 @@
-File 5-raise_exception.py writes a function that raises a type exception
+File 6-raise_exception_msg.py writes a function that raises a name exception with a message
