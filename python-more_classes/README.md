@@ -1,1 +1,1 @@
-File 0-rectangle.py writes an empty class Rectangle that defines a rectangle
+File 1-rectangle.py writes a class Rectangle that defines a rectangle by: (based on 0-rectangle.py)
