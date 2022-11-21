@@ -1,13 +1,10 @@
 #!/usr/bin/python3
-"""This module defines the append_write function"""
+"""From Json to Object."""
 
 
-def append_write(filename="", text=""):
-    """Appends a string at end of a text file, returns # of characters written
-    Args:
-    filename (str): File to append to
-    text (str): text to append
-    
-    """
-    with open(filename, 'a', encoding='utf-8') as file:
-        return file.write(text)
+import json
+
+
+def from_json_string(my_str):
+    """From json to Objects."""
+    return json.loads(my_str)
