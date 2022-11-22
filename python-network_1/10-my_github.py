@@ -5,8 +5,6 @@ API to display your id
 import requests
 from sys import argv
 if __name__ == "__main__":
-
-
     username = argv[1]
     password = argv[2]
     try:
