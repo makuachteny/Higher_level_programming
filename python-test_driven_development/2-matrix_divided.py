@@ -35,7 +35,7 @@ def matrix_divided(matrix, div):
                 if nonemptyflag == 0:
                     raise TypeError("matrix must be a matrix (list of lists) of \integers/floats")
                 length = len(matrix[0])
-                for row in matrix:
+            for row in matrix:
                     if len(row) != length:
                         raise TypeError("Each row of the matrix must have the same size")
-                    return [[round(i/div, 2) for i in row] for row in (matrix)]
+            return [[round(i/div, 2) for i in row] for row in (matrix)]
