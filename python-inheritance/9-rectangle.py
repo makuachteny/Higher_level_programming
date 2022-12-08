@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-""" A script that contains the class BaseGeometry and subclass Rectangle"""
+"""
+Contains the class BaseGeometry and subclass Rectangle
+"""
 
 
 class BaseGeometry:
@@ -17,11 +19,7 @@ class BaseGeometry:
 
 
 class Rectangle(BaseGeometry):
-    """A class named BaseGeometry
-     Attributes:
-    attr1(width): width of rectangle
-    attr2(height): height of rectangle
-    """
+    """A representation of a rectangle"""
     def __init__(self, width, height):
         """initializes an instance"""
          self.integer_validator("width", width)
