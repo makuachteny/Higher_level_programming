@@ -13,11 +13,11 @@ class Square(Rectangle):
     attr2(area): finds the area of it
     """
     def __init__(self, size):
-        """Initializes an instance"""
+        """instantiation of the square"""
         self.integer_validator("size", size)
         self.__size = size
         super().__init__(size, size)
 
     def __str__(self):
-        """Returns informal string representation"""
-        return "[Square] {}/{}".format(self.__size, self.__size)
+        """returns the area of the square"""
+        return self.__size ** 2
