@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
+"""Script that lists all states from the DB."""
+=======
 """Lists all states from the DB."""
+>>>>>>> fdf18b6fab8375e89fd798686f733c098325ac33
 
 
 import MySQLdb

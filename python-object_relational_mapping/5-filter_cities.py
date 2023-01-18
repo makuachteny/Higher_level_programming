@@ -1,7 +1,11 @@
 #!/usr/bin/python3
 """
+<<<<<<< HEAD
+Script that lists all cities of that state
+=======
 Lists all cities from the database hbtn_0e_4_usa
 with specified state name
+>>>>>>> fdf18b6fab8375e89fd798686f733c098325ac33
 """
 
 import MySQLdb

@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
+"""Script that lists all cities from the database"""
+=======
 """Lists all cities from the database"""
+>>>>>>> fdf18b6fab8375e89fd798686f733c098325ac33
 
 
 import MySQLdb
