@@ -1,5 +1,12 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 """script that deletes all 'State' objects with a name"""
+=======
+"""
+Changes the name of the State object where id=2 to New Mexico from a database
+"""
+
+>>>>>>> fdf18b6fab8375e89fd798686f733c098325ac33
 import sqlalchemy
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
