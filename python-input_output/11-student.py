@@ -1,31 +1,38 @@
 #!/usr/bin/python3
-"""class_to_json"""
+'''class that makes a student'''
 
 
 class Student:
-    """Contains student data
-    """
+    '''student class'''
+    first_name = None
+    last_name = None
+    age = None
 
-     def __init__(self, first_name, last_name, age):
-         self.first_name = first_name
-         self.last_name = last_name
-         self.age = age
+    def __init__(self, first_name, last_name, age):
+        '''inits the data needed'''
+        self.first_name = first_name
+        self.last_name = last_name
+        self.age = age
 
     def to_json(self, attrs=None):
-        """class_to_json"""
-
+        '''returns a dict rep of the data'''
+        context = {
+            'first_name': self.first_name,
+            'last_name': self.last_name,
+            'age': self.age
+        }
         if attrs is None or type(attrs) != list:
-            return self.__dict__
+            return context
         else:
-            temp = {}
-            for elem in attrs:
-                if type(elem) != str:
-                    return self.__dict__
-                if elem in self.__dict__.keys():
-                    temp[elem] = self.__dict__[elem]
-            return temp
+            cont = {}
+            for item in attrs:
+                if type(item) != str:
+                    return context
+                if item in context.keys():
+                    cont[item] = context[item]
+            return cont
 
     def reload_from_json(self, json):
-        """reload_from_json"""
-        for items in json.keys():
-            self.__dict__[items] = json[items]
+        '''reload_from_json'''
+        for item in json.keys():
+            self.__dict__[item] = json[item]
