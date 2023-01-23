@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Test case"""
+"""Test file cases"""
 
 import os
 import unittest
