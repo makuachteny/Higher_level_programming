@@ -1,54 +1,67 @@
-========================
-Test for 2-matrix_divided.py
-=========================
->>> matrix_divided = __import__('2-matrix_divided').matrix_divided
+===========================
+test file for say my name
+===========================
 
-Test with matrix of integers, float and both mixied
-    >>> matrix_divided([[1, 2, 3], [4, 5, 6]], 2)
-    [[0.5, 1.0, 1.5], [2.0, 2.5, 3.0]]
+This modules defines a function ``say_my_name(first_name, last_name="")``.
 
-    >>> matrix_divided([[2.0, 4.0], [5.0, 6.0]], 2)
-    [[1.0, 2.0], [2.5, 3.0]]
+Usage
+=====
 
-    >>> matrix_divided([[2, 4], [5.0, 6.0]], 2)
-    [[1.0, 2.0], [2.5, 3.0]]
-
-
+``say_my_name(...)`` prints "My name is <first_name> <last_name>".
 
 ::
 
-Test when div is not number  when div == 0 and it's not provided
-
-    >>> matrix_divided([[1, 2, 3], [4, 5, 6]], 0)
-    Traceback (most recent call last):
-    ZeroDivisionError: division by zero
-
-    >>> matrix_divided([[1, 2, 3], [4, 5, 6]], 'a')
-    Traceback (most recent call last):
-    TypeError: div must be a number
-
-    >>> matrix_divided([[1, 3],[4, 5]])
-    Traceback (most recent call last):
-    ...
-    TypeError: matrix_divided() missing 1 required positional argument: 'div'
-
-    >>> matrix_divided()
-    Traceback (most recent call last):
-    ...
-    TypeError: matrix_divided() missing 2 required positional arguments: 'matrix' and 'div'
-
+    >>> say_my_name = __import__('3-say_my_name').say_my_name
+    >>> say_my_name("Beta", "Scribbles")
+    My name is Beta Scribbles
 
 ::
 
-Test when size of row of the matrix is not equal and when the element of the matrix is different from int and floats
+    >>> say_my_name("Tom Jerry", "Avril")
+    My name is Tom Jerry Avril
 
-    >>> matrix_divided([[1, 2, 3], [4, 5]], 3)
+The parameter ```last_name``` is optional. If no last name is provided,
+an empty string is printed instead.
+
+::
+
+    >>> say_my_name("Beta")
+    My name is Beta 
+
+Invalid Names
+=============
+
+The parameters ``first_name`` and ``last_name``` must be strings. Otherwise,
+a TypeError is raised.
+
+::
+
+    >>> say_my_name(6, "James")
     Traceback (most recent call last):
-    TypeError: Each row of the matrix must have the same size
+    TypeError: first_name must be a string
 
-    >>> matrix_divided([[2, 4], [6, 'a']], 2)
+::
+
+    >>> say_my_name("MeCalister", ["Cavs", "Bakers", "Heat"])
     Traceback (most recent call last):
-    TypeError: matrix must be a matrix (list of lists) of integers/floats
+    TypeError: last_name must be a string
 
-    >>> matrix_divided([[1, 2], [4, 5]], float('inf'))
-    [[0.0, 0.0], [0.0, 0.0]]
+::
+
+    >>> say_my_name({"LeBron": 6, "Lames": 23}, 7.7)
+    Traceback (most recent call last):
+    TypeError: first_name must be a string
+
+::
+
+    >>> say_my_name(None)
+    Traceback (most recent call last):
+    TypeError: first_name must be a string
+
+At least one name must be provided.
+
+::
+
+    >>> say_my_name()
+    Traceback (most recent call last):
+    TypeError: say_my_name() missing 1 required positional argument: 'first_name'
