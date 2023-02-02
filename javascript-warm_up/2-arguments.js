@@ -14,4 +14,3 @@ else if (array.length > 1) console.log('Arguments found');
 
 // If the length of the `array` is equal to 1, then the console will log 'Argument found'.
 else if (array.length === 1) console.log('Argument found');
-
