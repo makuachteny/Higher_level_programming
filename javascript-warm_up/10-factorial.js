@@ -1,5 +1,5 @@
 #!/usr/bin/node
-function factoriale(number) {
+function factoriale (number) {
   if (number < 1) {
     return 1;
   }
