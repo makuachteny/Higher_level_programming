@@ -17,5 +17,9 @@ class Rectangle {
       this.height = h;
     }
   }
+  print() {
+    console.log('X'.repeat(this.width));
+    console.log('\n'.repeat(this.height - 1));
+  }
 }
 module.exports = Rectangle;
