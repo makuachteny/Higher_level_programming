@@ -1,12 +1,12 @@
 #!/usr/bin/node
 
 class Rectangle {
-  constructor (w, h) {
+  constructor(w, h) {
     if (
-      w === 0 ||
-      h === 0 ||
-      typeof w !== 'number' ||
-      typeof h !== 'number' ||
+      w == 0 ||
+      h == 0 ||
+      typeof w != 'number' ||
+      typeof h != 'number' ||
       !Number.isInteger(w) ||
       !Number.isInteger(h)
     ) {
