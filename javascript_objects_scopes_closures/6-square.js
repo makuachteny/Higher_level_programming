@@ -2,7 +2,7 @@
 
 const Square = require('./5-square.js');
 
-class Square extends Square {
+class Square extends parentSquare {
   constructor(size) {
     super(size, size);
   }
